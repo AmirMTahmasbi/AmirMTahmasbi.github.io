@@ -225,22 +225,8 @@
       color: #333;
     }
 
-    .project-img-wide {
-      width: 260px;
-      background: #fff;
-      border: 1px solid #eee;
-    }
-
-    .project-img-wide img {
-      object-fit: contain;
-    }
-
     /* Responsive */
     @media (max-width: 600px) {
-      .project-img-wide {
-        width: 100%;
-        height: auto;
-      }
       .project {
         flex-direction: column;
       }
@@ -276,8 +262,8 @@
   <h2>Projects & Research</h2>
 
   <div class="project" id="mana">
-    <div class="project-img project-img-wide">
-      <img src="images/mana.png" alt="MANA: demonstration, learning and deployment of an NPC in Minecraft">
+    <div class="project-img">
+      <img src="images/mana.jpg" alt="MANA: an NPC Farmer building a shelter at night and returning to farm by day">
     </div>
     <div class="project-content">
       <div class="project-title">Demonstration of MANA: Multi-perspective Alignment of NPC Agents</div>
@@ -285,7 +271,6 @@
       <p class="project-desc">An interactive approach for authoring NPC behavior through embodied demonstration. In Minecraft, a developer switches into an NPC's point of view and demonstrates, in-situ, how it should act through movement and dialogue. MANA distills each demonstration into a generalized policy that then drives the NPC on its own; after roughly 2 minutes of play, aligned NPCs behave consistently across new, unseen scenarios.</p>
       <div class="project-links">
         <a href="MANA_UIST_2026_Poster.pdf">Poster (PDF)</a>
-        <a href="https://doi.org/10.1145/3830397.3842492">DOI</a>
       </div>
     </div>
   </div>
@@ -349,8 +334,7 @@
   <div class="paper">
     <div class="paper-title">Demonstration of MANA: Multi-perspective Alignment of NPC Agents</div>
     <div class="paper-venue">UIST Adjunct '26 (Demo), Detroit, MI, November 2026</div>
-    <a href="https://doi.org/10.1145/3830397.3842492">Paper</a>
-    <a href="MANA_UIST_2026_Poster.pdf">PDF</a>
+    <a href="MANA_UIST_2026_Poster.pdf">Paper (PDF)</a>
   </div>
 
   <div class="paper">
