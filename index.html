@@ -216,6 +216,15 @@
       font-size: 0.95em;
     }
 
+    .project-video {
+      display: block;
+      width: 100%;
+      max-width: 640px;
+      margin: 0.8em 0;
+      border-radius: 6px;
+      background: #000;
+    }
+
     .announce {
       text-align: center;
       margin: 0 0 2em;
@@ -269,8 +278,12 @@
       <div class="project-title">Demonstration of MANA: Multi-perspective Alignment of NPC Agents</div>
       <div class="project-meta">With Keshav Singh, Shaheer Raza, Owen Mei, and Jason Wu · 2026 · <strong>UIST 2026 Demo, Detroit</strong></div>
       <p class="project-desc">An interactive approach for authoring NPC behavior through embodied demonstration. In Minecraft, a developer switches into an NPC's point of view and demonstrates, in-situ, how it should act through movement and dialogue. MANA distills each demonstration into a generalized policy that then drives the NPC on its own; after roughly 2 minutes of play, aligned NPCs behave consistently across new, unseen scenarios.</p>
+      <video class="project-video" controls preload="metadata" poster="images/mana.jpg">
+        <source src="MANA_UIST_2026_Demo.mp4" type="video/mp4">
+      </video>
       <div class="project-links">
         <a href="MANA_UIST_2026_Poster.pdf">Poster (PDF)</a>
+        <a href="MANA_UIST_2026_Demo.mp4">Demo video</a>
       </div>
     </div>
   </div>
